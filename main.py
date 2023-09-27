@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.webdriver import Service
 import time as t
-Chrome_path = r"C:\Users\Praful Shah\Desktop\achintya\Development\chromedriver.exe"
+Chrome_path = r"Chrome driver location"
 s = Service(Chrome_path)
 option = webdriver.ChromeOptions()
 option.add_experimental_option("detach",True)
